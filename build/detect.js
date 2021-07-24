@@ -172,6 +172,7 @@
       return found;
     };
 
+    var forEach;
     // Each Utility
     var each = forEach = function(obj, iterator, context) {
       if (obj == null) return;
